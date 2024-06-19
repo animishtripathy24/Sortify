@@ -1,0 +1,77 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2980b9;
+    --background-color: #f4f4f4;
+    --text-color: #000;
+}
+
+body.dark-mode {
+    --primary-color: #2c3e50;
+    --secondary-color: #34495e;
+    --background-color: #1e272e;
+    --text-color: #ecf0f1;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+    background: url(./background_image.png);
+    background-size: 400% 400%;
+}
+
+
+.controls {
+    margin-bottom: 20px;
+}
+
+.controls button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.controls button:hover {
+    background-color: var(--secondary-color);
+    transform: scale(1.05);
+}
+
+.array-container {
+    display: flex;
+    align-items: flex-end;
+    height: 70vh;
+    width: 80vw;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+.bar {
+    background-color: var(--primary-color);
+    margin: 0 1px;
+    transition: height 0.3s, background-color 0.3s;
+}
+
+@media (max-width: 600px) {
+    .bar {
+        margin: 0 0.5px;
+    }
+    
+    .controls button {
+        padding: 8px 16px;
+        margin: 3px;
+    }
+}
