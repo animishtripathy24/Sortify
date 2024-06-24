@@ -84,7 +84,7 @@
                 console.log('In merge right loop');
                 console.log(arr[mid + 1 + i].style.height + ' at ' + (mid+1+i));
                 // color
-                arr[mid + 1 + i].style.background = 'lightgreen';
+                arr[mid + 1 + i].style.background = 'orange';
                 right[i] = arr[mid + 1 + i].style.height;
             }
             await waitforme(delay);
