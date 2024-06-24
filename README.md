@@ -8,7 +8,6 @@ Welcome to **Sortify**, an interactive sorting visualizer! 🌟
 - Created a dynamic and interactive web application using **HTML**, **CSS**, and **JavaScript** to visualize various sorting algorithms including:
   - 🔄 Bubble Sort
   - ⚡ Merge Sort
-  - ⚡ Quick Sort
   - 🔄 Insertion Sort
   - 🔄 Selection Sort
 

@@ -76,7 +76,7 @@
                 console.log('In merge left loop');
                 console.log(arr[low + i].style.height + ' at ' + (low+i));
                 // color
-                arr[low + i].style.background = 'orange';
+                arr[low + i].style.background = 'white';
                 left[i] = arr[low + i].style.height;
             }
             for(let i = 0; i < n2; i++){
@@ -84,7 +84,7 @@
                 console.log('In merge right loop');
                 console.log(arr[mid + 1 + i].style.height + ' at ' + (mid+1+i));
                 // color
-                arr[mid + 1 + i].style.background = 'yellow';
+                arr[mid + 1 + i].style.background = 'lightgreen';
                 right[i] = arr[mid + 1 + i].style.height;
             }
             await waitforme(delay);
@@ -100,10 +100,10 @@
                     console.log('In merge while loop if');
                     // color
                     if((n1 + n2) === arr.length){
-                        arr[k].style.background = 'green';
+                        arr[k].style.background = 'orange';
                     }
                     else{
-                        arr[k].style.background = 'lightgreen';
+                        arr[k].style.background = 'orange';
                     }
                     
                     arr[k].style.height = left[i];
@@ -114,10 +114,10 @@
                     console.log('In merge while loop else');
                     // color
                     if((n1 + n2) === arr.length){
-                        arr[k].style.background = 'green';
+                        arr[k].style.background = 'orange';
                     }
                     else{
-                        arr[k].style.background = 'lightgreen';
+                        arr[k].style.background = 'orange';
                     } 
                     arr[k].style.height = right[j];
                     j++;
@@ -129,10 +129,10 @@
                 console.log("In while if n1 is left");
                 // color
                 if((n1 + n2) === arr.length){
-                    arr[k].style.background = 'green';
+                    arr[k].style.background = 'orange';
                 }
                 else{
-                    arr[k].style.background = 'lightgreen';
+                    arr[k].style.background = 'orange';
                 }
                 arr[k].style.height = left[i];
                 i++;
@@ -143,7 +143,7 @@
                 console.log("In while if n2 is left");
                 // color
                 if((n1 + n2) === arr.length){
-                    arr[k].style.background = 'green';
+                    arr[k].style.background = 'lightgreen';
                 }
                 else{
                     arr[k].style.background = 'lightgreen';

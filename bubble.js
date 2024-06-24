@@ -73,41 +73,23 @@
         // console.log('loop number'+ i);
             for(let j = 0; j < arr.length-1-i;j++ ){
             // console.log(' j loop'+j);
-            arr[j].style.background = 'red';
+            arr[j].style.background = 'yellow';
             arr[j+1].style.background = 'red';
             if(parseInt(arr[j].style.height) > parseInt(arr[j+1].style.height)){
                 console.log('IF CONDITION TRUE');
             await waitforme(delay);
                 swap(arr[j], arr[j+1]);
             }
-            arr[j].style.backgroud='cyan';
-            arr[j+1].style.background='cyan';
+            arr[j].style.backgroud='orange';
+            arr[j+1].style.background='orange';
             
             
             }
-            arr[arr.length-1-i].style.background='green';
+            arr[arr.length-1-i].style.background='lightgreen';
         }
-        arr[0].style.background='green';
+        arr[0].style.background='lightgreen';
         
         }
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         
         
         

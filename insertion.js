@@ -70,7 +70,7 @@
         const arr = document.querySelectorAll(".bars");
         // console.log(arr);
         // console.log(ele.length);
-        arr[0].style.background = 'green';
+        arr[0].style.background = 'lightgreen';
         
         
             for(let i = 1; i < arr.length; i++){
@@ -78,7 +78,7 @@
                 let j = i - 1;
                 let key = arr[i].style.height;
                 // color
-                arr[i].style.background = 'cyan';
+                arr[i].style.background = 'yellow';
         
                 await waitforme(delay);
         
@@ -93,12 +93,12 @@
         
                     // color
                     for(let k = i; k >= 0; k--){
-                        arr[k].style.background = 'green';
+                        arr[k].style.background = 'lightgreen';
                     }
                 }
                 arr[j + 1].style.height = key;
                 // color
-                arr[i].style.background = 'green';
+                arr[i].style.background = 'lightgreen';
         
         }
         

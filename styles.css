@@ -104,12 +104,6 @@ h1 {
         padding: 1vw 1vw 2vw 1vw;
         margin-bottom: 2vw;
     }
-    h1 { 
-        text-align: center;
-        color: white;
-        
-        font-family: "Poppins", sans-serif;
-    }
     body {
     font-family: 'Poppins', sans-serif;
     background: url(./background_image.png);
@@ -169,10 +163,10 @@ h1 {
 
         }
         .bars {
-            border: 0.05vw solid black;
+            border: 0.05vw solid rgb(0, 0, 0);
             width:0.9vw;
             margin:0.1vw;
             background:#fd0081;
-            background-color: #343090;;
+            background-color: #9900ff;;
             display: inline-block
     }
