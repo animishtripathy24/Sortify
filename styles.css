@@ -18,9 +18,10 @@ h1 {
         font-weight: 900;
         margin: 20px 0;
         text-transform: uppercase;
+        text-decoration: underline;
         letter-spacing: 3px;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        background: linear-gradient(90deg, rgb(208, 225, 26) 0%, rgb(253, 0, 21) 100%);
+        text-shadow: 7px 0px 9px rgba(177, 196, 8, 0.5);
+        background: linear-gradient(90deg, rgb(229, 255, 0) 40%, rgb(253, 181, 0) 50%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
@@ -167,6 +168,6 @@ h1 {
             width:0.9vw;
             margin:0.1vw;
             background:#fd0081;
-            background-color: #9900ff;;
+            background-color: #f2ff00;;
             display: inline-block
     }
